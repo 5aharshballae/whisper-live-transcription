@@ -8,7 +8,7 @@ from faster_whisper import WhisperModel
 
 app = FastAPI()
 
-MODEL_TYPE = "large-v2"
+MODEL_TYPE = "large-v3"
 RUN_TYPE = "gpu"  # "cpu" or "gpu"
 
 # For CPU usage (https://github.com/SYSTRAN/faster-whisper/issues/100#issuecomment-1492141352)
